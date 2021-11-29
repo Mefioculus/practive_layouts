@@ -1,0 +1,75 @@
+.main {
+    width: 1440px;
+    margin: 0px auto;
+}
+
+.grid-container {
+    display: grid;
+    grid-auto-flow: column;
+    align-items: center;
+}
+
+
+
+/* ----------- Заголовок -------------- */
+.header {
+    position: relative;
+}
+
+#logo {
+    position: absolute;
+    top: 72px;
+    left: 40px;
+}
+
+a {
+    text-decoration: none;
+}
+
+hr {
+    border: .1px solid black;
+    margin-top: 11px;
+    margin-bottom: 20px;
+}
+
+.upper-header, .lower-header {
+    display: grid;
+    grid-template-columns: 1fr auto 1fr;
+    align-items: center;
+    margin-left: 40px;
+    margin-right: 40px;
+}
+
+
+.upper-header-links {
+    gap: 63px;
+}
+
+.lower-header-links {
+    gap: 72px;
+}
+
+.lower-header-partners {
+    justify-self: end;
+}
+
+.upper-header-language {
+    gap: 49px;
+    justify-self: end;
+    
+}
+/* ----------- Заголовок -------------- */
+
+
+/* ------- Основная часть ------------ */
+
+.content {
+    display: grid;
+    grid-auto-flow: row;
+}
+
+.first-row {
+    gap: 40px;
+}
+
+/* ------- Основная часть ------------ */
