@@ -1,12 +1,28 @@
 .main {
     width: 1440px;
     margin: 0px auto;
+    padding-top: 13px;
+    background-color: white;
+}
+
+ul {
+    padding-inline-start: 0px;
+}
+
+li {
+    list-style-type: none;
+    font-size: 16px;
 }
 
 .grid-container {
     display: grid;
     grid-auto-flow: column;
     align-items: center;
+}
+
+body {
+    background: rgb(230, 230, 230);
+    margin: 0px;
 }
 
 
@@ -27,7 +43,9 @@ a {
 }
 
 hr {
-    border: .1px solid black;
+    color: white;
+    border: none;
+    border-bottom: .1px solid black;
     margin-top: 11px;
     margin-bottom: 20px;
 }
@@ -72,4 +90,32 @@ hr {
     gap: 40px;
 }
 
+.second-row {
+    position: relative;
+    height: 650px;
+}
+
+.calculator {
+    position: absolute;
+    top: 132px;
+    left: 206px;
+    z-index: 10;
+}
+
+.text-calculator {
+    position: absolute;
+    width: 480px;
+    height: 204px;
+    border: 1px solid black;
+
+    padding: 57px 53px;
+
+    top: 294px;
+    right: 195px;
+}
+
+.decorated-link {
+    font-size: 16px;
+    border-bottom: 1px solid orange;
+}
 /* ------- Основная часть ------------ */
