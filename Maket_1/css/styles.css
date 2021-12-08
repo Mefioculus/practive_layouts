@@ -95,6 +95,51 @@ hr {
     height: 650px;
 }
 
+.third-row {
+    display: grid;
+    grid-template-columns: 390px auto;
+    align-items: end;
+}
+
+.forth-row {
+    margin-top: 88px;
+    margin-left: 40px;
+    margin-right: 40px;
+}
+
+.fifth-row {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    margin-right: 40px;
+    margin-left: 40px;
+}
+
+.text-block {
+    padding-top: 31px;
+    padding-left: 32px;
+}
+
+.pic-with-text {
+    position: relative;
+    background-color: #F87200;
+}
+
+.annotation-for-pic {
+    position: absolute;
+    top: 13px;
+    left: 24px;
+    font-size: 36px;
+}
+
+.link-for-pic {
+    position: absolute;
+    top: -12px;
+    right: 48px;
+    font-size: 12px;
+    background-color: #E8E9EA;
+    padding: 6px;
+}
+
 .calculator {
     position: absolute;
     top: 132px;
@@ -116,6 +161,7 @@ hr {
 
 .decorated-link {
     font-size: 16px;
+    padding-bottom: 13px;
     border-bottom: 1px solid orange;
 }
 /* ------- Основная часть ------------ */
