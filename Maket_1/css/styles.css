@@ -1,3 +1,15 @@
+@font-face {
+    font-family: Roboto;
+    src: url("../fonts/Roboto-Regular.ttf") format("truetype");
+    font-weight: 400;
+}
+
+@font-face {
+    font-family: Roboto;
+    src: url("../fonts/Roboto-Bold.ttf") format("truetype");
+    font-weight: 700;
+}
+
 .main {
     width: 1440px;
     margin: 0px auto;
@@ -48,6 +60,12 @@ hr {
     border-bottom: .1px solid black;
     margin-top: 11px;
     margin-bottom: 20px;
+}
+
+.hr-text-block {
+    border-color: #D3D4D6;
+    margin-top: 20px;
+    margin-bottom: 16px;
 }
 
 .upper-header, .lower-header {
@@ -112,6 +130,23 @@ hr {
     grid-template-columns: 1fr 1fr 1fr;
     margin-right: 40px;
     margin-left: 40px;
+    margin-bottom: 140px;
+}
+
+.sixth-row {
+    display: grid;
+    margin-right: 40px;
+    margin-left: 40px;
+    grid-template-columns: auto 893px;
+}
+
+.info-block {
+    background-color: #E8E9EA;
+}
+
+.p-fifth-row {
+    color: #F87200;
+    margin: 0px;
 }
 
 .text-block {
@@ -164,4 +199,17 @@ hr {
     padding-bottom: 13px;
     border-bottom: 1px solid orange;
 }
+
+.text16 {
+    font-family: Roboto;
+    font-weight: 400;
+    font-size: 16px;
+}
+
+.text32 {
+    font-family: Roboto;
+    font-weight: 400;
+    font-size: 32px;
+}
+
 /* ------- Основная часть ------------ */
