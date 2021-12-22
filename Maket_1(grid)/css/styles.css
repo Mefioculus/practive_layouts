@@ -1,0 +1,165 @@
+@font-face {
+    font-family: Roboto;
+    src: url("../fonts/Roboto-Regular.ttf") format("truetype");
+    font-weight: 400;
+}
+
+body {
+    margin: 0px;
+    font-family: Roboto;
+    font-size: 14px;
+    color: black;
+}
+
+.grid-container {
+    display: grid;
+    width: 1440px;
+    margin: 0px auto;
+    grid-template-columns: 40px 1fr 1fr 1fr 1fr 1fr 1fr 40px;
+    grid-template-rows: 41px 87px;
+}
+
+.grid-two-columns {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.grid-three-columns {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+.arrowed-link {
+    display: inline-block;
+    text-decoration: none;
+    color: black;
+    padding-bottom: 11px;
+    border-bottom: 1px solid black;
+}
+
+.arrowed-link:after {
+    content: "";
+    display: inline-block;
+    width: 11px;
+    height: 8px;
+    margin-left: 6px;
+    background-image: url("../src/arrow.svg");
+    background-repeat: none;
+}
+
+/* Текст */
+
+.text11 {
+    font-size: 11px;
+}
+
+.text15 {
+    font-size: 15px;
+}
+
+.text16 {
+    font-size: 16px;
+}
+
+.text19 {
+    font-size: 19px;
+}
+
+.text36 {
+    font-size: 36px;
+}
+
+.text56 {
+    font-size: 56px;
+}
+
+/* Начало классов хэдера */
+
+.header-first-row-container {
+    grid-column: 3 / 7;
+    grid-row-start: 1;
+    margin: 0px auto;
+    gap: 63px;
+    width: min-content;
+    text-align: center;
+    margin-top: 13px;
+}
+
+.header-second-row-container {
+    grid-column: 3 / 7;
+    grid-row: 2;
+    margin: 0px auto;
+    gap: 72px;
+    width: max-content;
+    text-align: center;
+    margin-top: 31px;
+
+}
+
+.header-logo-container {
+    grid-column: 2 / 3;
+    grid-row: 2;
+    position: relative;
+}
+
+.header-language-buttons-container {
+    grid-column: 7 / 8;
+    grid-row: 1;
+    justify-self: end;
+    display: grid;
+    grid-auto-flow: column;
+    width: max-content;
+    gap: 49px;
+}
+
+.header-partners-button-container {
+    grid-column: 7 / 8;
+    grid-row: 2;
+    text-align: end;
+}
+
+.header-link {
+    display: inline-block;
+    text-decoration: none;
+    color: black;
+}
+
+.logo {
+    position: relative;
+    top: 31px;
+}
+
+.partners-link {
+    border: 1px solid black;
+    padding: 10px 21px;
+    margin-top: 20px;
+}
+
+.border {
+    grid-column: 1/9;
+    grid-row: 1;
+    border-bottom: 1px solid black;
+}
+
+/* Конец классов хэдера */
+
+/* Начало основого раздела */
+
+.main-first-row-container {
+    grid-column: 2 / 8;
+}
+
+.main-secont-row-container {
+}
+
+.main-third-row-container {
+}
+
+.main-forth-row-container {
+}
+
+.main-fifth-row-container {
+}
+
+
+/* Конец основого раздела */
